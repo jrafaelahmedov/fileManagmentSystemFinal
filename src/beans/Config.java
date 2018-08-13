@@ -3,7 +3,7 @@ package beans;
 import java.io.Serializable;
 import java.util.List;
 
-public class Config extends User implements Serializable {
+public class Config implements Serializable {
     public static final String fileName = "fmsconfig.ser";
     private transient User loggedInUser;
     private List<User> allUsers;
